@@ -1,0 +1,90 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.bg-container {
+  background-color: #ffd569;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-style: solid;
+  border-width: 0;
+  border-radius: 12px;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 24px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+}
+
+.button {
+  height: 35px;
+  width: 120px;
+  font-family: 'Roboto';
+  background-color: #007bff;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 0;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.image-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+.span-style {
+  color: #ffd569;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    flex-direction: row;
+  }
+
+  .bg-container {
+    height: 100vh;
+  }
+
+  .image {
+    height: 275px;
+    width: 275px;
+  }
+
+  .main-heading {
+    font-size: 32px;
+  }
+}
